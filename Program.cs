@@ -11,6 +11,7 @@ namespace GoToExample
         static void Main(string[] args)
         {
             string userName;
+            Again:
             Console.WriteLine("Enter User Name");
             userName = Console.ReadLine();
 
@@ -22,6 +23,7 @@ namespace GoToExample
             else
             {
                 Console.WriteLine("Invalid User Name");
+                goto Again;
             }
             Console.ReadKey();
 
