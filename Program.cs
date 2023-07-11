@@ -25,11 +25,13 @@ namespace GoToExample
             //    Console.WriteLine("Invalid User Name");
             //    goto Again;
             //}
-
+            string myString = "Vasanth";
             StringBuilder stringBuilder = new StringBuilder("Welcome ");
             stringBuilder.Append("To C# ");
 
             stringBuilder.Append("I am String Builder");
+
+            stringBuilder.Append("string: " + myString);
 
             Console.WriteLine(stringBuilder);
 
